@@ -15,23 +15,7 @@ Either clone the Git repository, or download the latest copy using the buttons p
 
 ## Building the source:
 
-OpenBVE may either be built from the command line, using MSBuild or XBuild, or using your favorite .Net IDE.
-
-### Command line buld:
-
-For a command line build, you will need either msbuild (.Net) or xbuild (Mono). For msbuild, open a "Visual Studio command prompt", navigate to the OpenBVE folder and type:
-
-```
-msbuild OpenBVE\OpenBve.sln /p:Configuration=Release
-```
-
-For xbuild, make sure the tool is located in your path and type:
-
-```
-xbuild OpenBVE\OpenBve.sln /p:Configuration=Release
-```
-
-For an IDE build, you will need either Visual Studio 2013 or higher, MonoDevelop 2.4 or higher. Simply open OpenBve.sln and click "Build".
+This build has been tested to compile correctly using Visual Studio 2017 onwards and MonoDevelop. These are described fully [here](https://github.com/leezer3/OpenBVE/blob/master/Building.md).
 
 ### Building the developer tools:
 
